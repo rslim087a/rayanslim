@@ -1,0 +1,46 @@
+/* ── DESIGN TOKENS ─────────────────────────────────────────── */
+:root {
+  /* Brand Colors */
+  --brand: #4361ee;
+  --brand-dark: #3343d9;
+  --brand-light: #eef2ff;
+  --brand-lighter: #f8faff;
+
+  /* Accent Colors */
+  --gold: #f59e0b;
+  --gold-light: #fef3c7;
+  --success: #10b981;
+  --success-light: #d1fae5;
+
+  /* Text Colors */
+  --text: #1e293b;
+  --text-muted: #64748b;
+  --text-light: #94a3b8;
+
+  /* Background Colors */
+  --bg: #f8fafc;
+  --panel: #ffffff;
+
+  /* Border Colors */
+  --border: #e2e8f0;
+  --border-light: #f1f5f9;
+
+  /* Border Radius */
+  --radius: 12px;
+  --radius-sm: 8px;
+  --radius-lg: 16px;
+
+  /* Shadows */
+  --shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+
+  /* Transitions */
+  --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Layout */
+  --container-max-width: 1280px;
+  --header-height: 72px;
+  --header-height-mobile: 64px;
+}

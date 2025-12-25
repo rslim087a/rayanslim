@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Course Curriculum</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/design-tokens.css" />
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/lesson.css" />
+  <link rel="stylesheet" href="assets/css/sidebar.css" />
+
+  <!-- Markdown parser -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <!-- lite-youtube web component -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1/lite-youtube.min.js"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">Rayan Slim</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Courses</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Course Header (injected by JS) -->
+  <div id="course-header"></div>
+
+  <!-- Main Content -->
+  <div class="course-container">
+    <!-- Curriculum Sidebar -->
+    <aside class="sidebar">
+      <div id="sidebar">
+        <!-- Sidebar will be injected by JavaScript -->
+        <div class="sidebar-loading">Loading curriculum...</div>
+      </div>
+    </aside>
+
+    <!-- Content Area -->
+    <main class="content">
+      <div class="content-body" id="lesson-content">
+        <!-- Lesson content will be injected by JavaScript -->
+        <div class="content-loading">
+          <div class="loading-spinner"></div>
+          <p>Loading lesson...</p>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="assets/js/lesson.js"></script>
+</body>
+</html>

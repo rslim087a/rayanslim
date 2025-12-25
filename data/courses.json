@@ -1,0 +1,306 @@
+{
+  "fields": {
+    "Devops": [
+      "docker-course",
+      "kubernetes-course",
+      "kubernetes-rbac-course",
+      "kong-api-gateway-course",
+      "keycloak-sso-course",
+      "prometheus-grafana-monitoring-course",
+      "loki-prometheus-grafana-course",
+      "tempo-alloy-grafana-course",
+      "argocd-gitops-course",
+      "kubernetes-cicd-course",
+      "vault-external-secrets-course"
+    ],
+    "Cloud": [
+      "aws-iam-course",
+      "aws-vpc-ec2-course",
+      "aws-lambda-api-gateway-course",
+      "aws-elastic-beanstalk-course",
+      "aws-rds-course",
+      "aws-cloud-course"
+    ]
+  },
+  "courses": [
+    {
+      "slug": "docker-course",
+      "title": "Docker Mastery",
+      "metaDescription": "Learn Docker from scratch with hands-on projects. Master containerization, Docker Compose, microservices, and cloud deployment for modern DevOps workflows.",
+      "description": "Stop wrestling with \"works on my machine\" problems and start shipping applications that run consistently everywhere. You'll build and deploy a complete e-commerce system using Docker, just like Spotify, Netflix, and PayPal do.",
+      "subtitle": "Build Apps That Deploy Anywhere",
+      "category": "containerization",
+      "tier": "paid",
+      "icon": "docker",
+      "field": ["Devops"],
+      "rating": 4.7,
+      "udemyUrl": "https://www.udemy.com/course/docker-training-learn-docker-from-zero-to-cloud/?couponCode=DOCKER_COURSE",
+      "whatYoullLearn": [
+        "Build apps that work the same everywhere - no more environment headaches",
+        "Master the containerization skills that pay $120k+ in DevOps roles",
+        "Deploy your applications to the cloud with confidence"
+      ]
+    },
+    {
+      "slug": "kubernetes-course",
+      "title": "Kubernetes Mastery",
+      "metaDescription": "Master Kubernetes fundamentals and advanced topics including Helm, operators, and AWS deployment. Scale cloud-native applications with hands-on projects.",
+      "description": "Build and manage applications that automatically scale from 100 to 100,000 users without breaking. You'll deploy production-ready systems to AWS using the same orchestration platform that runs Google, Netflix, and Uber.",
+      "subtitle": "Develop and Deploy Cloud Native Applications at Scale",
+      "category": "container orchestration",
+      "tier": "paid",
+      "icon": "kubernetes",
+      "field": ["Devops"],
+      "rating": 4.7,
+      "udemyUrl": "https://www.udemy.com/course/kubernetes-training-learn-kubernetes-from-zero-to-cloud/?couponCode=KUBERNETES-COURSE",
+      "whatYoullLearn": [
+        "Qualify for senior DevOps roles by mastering the orchestration platform every major company uses",
+        "Solve infrastructure problems that save companies thousands in downtime and operational costs",
+        "Deploy and manage complex microservices architectures"
+      ]
+    },
+    {
+      "slug": "kubernetes-rbac-course",
+      "title": "Access Control",
+      "metaDescription": "Master Kubernetes Role-Based Access Control (RBAC) to transform unsecured APIs into fortified systems with service accounts, role bindings, and kube-rbac-proxy authentication.",
+      "description": "Stop letting unauthorized users access your Kubernetes APIs. You'll lock down a real grade submission API using role-based access control, the same security model that protects production systems at Google, Amazon, and Microsoft.",
+      "subtitle": "Lock Down APIs with Role-Based Access Control",
+      "category": "security",
+      "tier": "free",
+      "icon": "kubernetes",
+      "field": ["Devops"],
+      "whatYoullLearn": [
+        "Secure APIs with Kubernetes authentication and authorization",
+        "Create service accounts and manage authentication tokens",
+        "Build custom security permissions with cluster roles and bindings"
+      ]
+    },
+    {
+      "slug": "kong-api-gateway-course",
+      "title": "API Gateway",
+      "metaDescription": "Master Kong API Gateway on Kubernetes to transform internal APIs into secure, externally accessible services with authentication, rate limiting, and proxy routing.",
+      "description": "Turn internal APIs into public services without getting hacked or overwhelmed. You'll deploy Kong API Gateway to expose a real application with proper authentication and rate limiting, just like Netflix and Spotify do for their APIs.",
+      "subtitle": "Expose and Protect APIs at Scale",
+      "category": "API Management",
+      "tier": "free",
+      "icon": "kong",
+      "field": ["Devops"],
+      "whatYoullLearn": [
+        "Install Kong API Gateway and expose internal APIs externally",
+        "Implement API key authentication to protect your services",
+        "Add rate limiting to prevent API abuse and overuse"
+      ]
+    },
+    {
+      "slug": "keycloak-sso-course",
+      "title": "Single Sign-On",
+      "metaDescription": "Build enterprise single sign-on using Keycloak and OpenID Connect to secure applications like Grafana with token-based authentication, user realms, and role mapping.",
+      "description": "Stop managing separate logins for every application. You'll implement enterprise single sign-on using Keycloak and OpenID Connect, giving users one login that works across all your services - the same authentication pattern used by Google Workspace and Microsoft 365.",
+      "subtitle": "Unify User Authentication Across All Apps",
+      "category": "authentication",
+      "tier": "free",
+      "icon": "keycloak",
+      "field": ["Devops"],
+      "whatYoullLearn": [
+        "Set up enterprise single sign-on with Keycloak and OpenID Connect",
+        "Create user realms with role-based permissions and token authentication",
+        "Integrate Grafana with Keycloak for secure application access"
+      ]
+    },
+    {
+      "slug": "prometheus-grafana-monitoring-course",
+      "title": "Metrics Monitoring",
+      "metaDescription": "Master Prometheus monitoring from zero to production using Docker, Kubernetes, PromQL, Grafana dashboards, database exporters, and more.",
+      "description": "Find out your servers are dying before your users do. You'll build production monitoring with Prometheus and Grafana across nine hands-on modules, using the same observability stack that powers SoundCloud, DigitalOcean, and Cloudflare.",
+      "subtitle": "Monitor Everything Before Failures Happen",
+      "category": "observability",
+      "tier": "free",
+      "icon": "prometheus",
+      "field": ["Devops"],
+      "whatYoullLearn": [
+        "Deploy Prometheus and Grafana monitoring stack on Docker and Kubernetes",
+        "Write PromQL queries to analyze metrics and identify issues",
+        "Build production dashboards that monitor infrastructure and applications"
+      ]
+    },
+    {
+      "slug": "loki-prometheus-grafana-course",
+      "title": "Log Aggregation",
+      "metaDescription": "Build unified monitoring infrastructure combining Loki for efficient log storage, Prometheus for metrics collection, and Grafana dashboards for complete observability on Kubernetes.",
+      "description": "Stop paying for expensive Elasticsearch clusters just to search logs. You'll deploy Loki for lightweight log aggregation that uses 10x less resources while giving you the same troubleshooting power, used by Grafana Labs and adopted by thousands of engineering teams.",
+      "subtitle": "Debug Production Issues with Unified Logs",
+      "category": "observability",
+      "tier": "free",
+      "icon": "loki",
+      "field": ["Devops"],
+      "whatYoullLearn": [
+        "Deploy Loki for efficient log storage that beats Elasticsearch",
+        "Build unified dashboards that combine logs and metrics for troubleshooting",
+        "Configure log collection with Promtail and query logs with LogQL"
+      ]
+    },
+    {
+      "slug": "tempo-alloy-grafana-course",
+      "title": "Distributed Tracing",
+      "metaDescription": "Master distributed tracing with Tempo, Alloy, and Grafana to identify performance bottlenecks across microservices architectures deployed on Kubernetes clusters.",
+      "description": "Figure out why requests are slow when they touch 10 different microservices. You'll deploy distributed tracing with Tempo, Alloy, and Grafana to follow every request through your entire system and find exactly where the bottlenecks are.",
+      "subtitle": "Find Performance Bottlenecks Across Services",
+      "category": "observability",
+      "tier": "free",
+      "icon": "tempo",
+      "field": ["Devops"],
+      "whatYoullLearn": [
+        "Deploy Tempo for distributed tracing across microservices",
+        "Identify performance bottlenecks by analyzing request traces",
+        "Build service dependency graphs to understand microservice relationships"
+      ]
+    },
+    {
+      "slug": "argocd-gitops-course",
+      "title": "GitOps Deployment",
+      "metaDescription": "Master GitOps deployment workflows with ArgoCD on Kubernetes using Git repositories as the single source of truth for automated application deployments and drift detection.",
+      "description": "Stop manually running kubectl commands to deploy applications. You'll automate Kubernetes deployments with ArgoCD using GitOps workflows where Git becomes your single source of truth, the same deployment pattern used by Intuit, Red Hat, and major financial institutions.",
+      "subtitle": "Deploy from Git with Zero-Touch Automation",
+      "category": "gitops",
+      "tier": "free",
+      "icon": "argocd",
+      "field": ["Devops"],
+      "whatYoullLearn": [
+        "Set up GitOps workflows where Git becomes your deployment source of truth",
+        "Deploy applications automatically using ArgoCD with manifests and Helm charts",
+        "Configure self-healing deployments that fix drift and maintain desired state"
+      ]
+    },
+    {
+      "slug": "kubernetes-cicd-course",
+      "title": "Pipeline Automation",
+      "metaDescription": "Build complete Kubernetes CI/CD pipelines using GitHub Actions for automated Docker builds and ArgoCD for GitOps-driven deployments from code commit to production.",
+      "description": "Ship code to production in minutes instead of hours. You'll build a complete CI/CD pipeline using GitHub Actions and ArgoCD that automatically builds, tests, and deploys your applications to Kubernetes whenever you commit code.",
+      "subtitle": "Ship Code to Production in Minutes",
+      "category": "CI/CD",
+      "tier": "free",
+      "icon": "cicd",
+      "field": ["Devops"],
+      "whatYoullLearn": [
+        "Build complete CI/CD pipelines using GitHub Actions and ArgoCD",
+        "Automate Docker image builds and deployments from code commits",
+        "Test end-to-end pipelines from code changes to production Kubernetes clusters"
+      ]
+    },
+    {
+      "slug": "vault-external-secrets-course",
+      "title": "Secret Management",
+      "metaDescription": "Centralize Kubernetes secret management by integrating HashiCorp Vault with External Secrets Operator for automated secret rotation and secure credential storage.",
+      "description": "Stop hardcoding API keys and passwords in your code. You'll centralize secret management with HashiCorp Vault and automatically sync credentials into Kubernetes, the same approach used by major banks, healthcare providers, and security-conscious enterprises.",
+      "subtitle": "Never Hardcode Secrets in Git Again",
+      "category": "security",
+      "tier": "free",
+      "icon": "vault",
+      "field": ["Devops"],
+      "whatYoullLearn": [
+        "Centralize secret management with HashiCorp Vault and External Secrets Operator",
+        "Store API keys and passwords securely outside of Git repositories",
+        "Automatically sync secrets from Vault into Kubernetes clusters"
+      ]
+    },
+    {
+      "slug": "aws-iam-course",
+      "title": "AWS Setup",
+      "metaDescription": "Set up your AWS account by creating an IAM user and configuring the AWS CLI for secure, everyday development work.",
+      "description": "Stop using your root account for everything and risking your entire AWS infrastructure. You'll create an IAM user for everyday work and configure the AWS CLI, the same security practice that every developer follows on AWS.",
+      "subtitle": "Create IAM User & Configure CLI",
+      "category": "Setup",
+      "tier": "free",
+      "icon": "aws",
+      "field": ["Cloud"],
+      "whatYoullLearn": [
+        "Create an IAM user with proper permissions for everyday AWS work",
+        "Generate access keys and configure the AWS CLI on your machine",
+        "Authenticate and run AWS commands from your terminal"
+      ]
+    },
+    {
+      "slug": "aws-vpc-ec2-course",
+      "title": "Cloud Servers",
+      "metaDescription": "Launch a web server on AWS by creating a VPC with public subnet, deploying an EC2 instance, and connecting via SSH from your local machine.",
+      "description": "Stop deploying everything in AWS's default network and learn how real infrastructure is built. You'll create a custom VPC with public subnets and launch an EC2 web server that's accessible from anywhere on the internet, using the same networking patterns that power production applications at scale.",
+      "subtitle": "Launch a Public Web Server on AWS",
+      "category": "compute",
+      "tier": "free",
+      "icon": "aws",
+      "field": ["Cloud"],
+      "whatYoullLearn": [
+        "Create VPCs with custom IP ranges and public subnets across availability zones",
+        "Launch EC2 instances with proper security groups and SSH key pair authentication",
+        "Connect to web servers via SSH and understand public vs private subnet architecture"
+      ]
+    },
+    {
+      "slug": "aws-lambda-api-gateway-course",
+      "title": "Serverless",
+      "metaDescription": "Deploy a Lambda function that generates QR codes and expose it via API Gateway to create a serverless API that only costs when called.",
+      "description": "Stop paying for servers that sit idle 24/7 and learn how serverless computing actually works. You'll deploy a Lambda function that generates QR codes and set up API Gateway to call it from anywhere, using the same serverless architecture that powers modern scalable applications.",
+      "subtitle": "Build Serverless APIs with Lambda",
+      "category": "compute",
+      "tier": "free",
+      "icon": "aws",
+      "field": ["Cloud"],
+      "whatYoullLearn": [
+        "Create Lambda functions that execute code without managing servers",
+        "Set up API Gateway to expose Lambda functions as REST APIs",
+        "Understand serverless cost optimization and pay-per-use pricing models"
+      ]
+    },
+    {
+      "slug": "aws-elastic-beanstalk-course",
+      "title": "Platform as a Service",
+      "metaDescription": "Deploy a Node.js web application to AWS Elastic Beanstalk without touching server configuration, while learning what infrastructure gets created automatically.",
+      "description": "Stop spending hours configuring servers, installing dependencies, and managing deployments manually. You'll deploy a real web application to Elastic Beanstalk and let AWS handle all the infrastructure setup, using the same Platform as a Service approach that saves development teams hundreds of hours.",
+      "subtitle": "Deploy Apps Without Managing Servers",
+      "category": "compute",
+      "tier": "free",
+      "icon": "aws",
+      "field": ["Cloud"],
+      "whatYoullLearn": [
+        "Deploy web applications to Elastic Beanstalk with automatic infrastructure provisioning",
+        "Configure environment variables and application settings without touching server files",
+        "Understand the EC2, security group, and monitoring resources Beanstalk creates automatically"
+      ]
+    },
+    {
+      "slug": "aws-rds-course",
+      "title": "Relational Database",
+      "metaDescription": "Create a MySQL RDS instance, configure security groups for access, and connect a Python application to perform SQL queries with best practices.",
+      "description": "Stop managing database servers manually and learn how AWS RDS handles backups, patches, and scaling automatically. You'll create a MySQL database instance, configure security groups to control access, and connect a Python application that creates tables and performs real SQL queries using production-ready patterns.",
+      "subtitle": "Deploy Managed MySQL Databases",
+      "category": "database",
+      "tier": "free",
+      "icon": "aws",
+      "field": ["Cloud"],
+      "whatYoullLearn": [
+        "Create RDS MySQL instances with proper security group configuration and access controls",
+        "Connect Python applications to RDS using connection strings and authentication",
+        "Write SQL queries with parameterized statements to prevent injection attacks"
+      ]
+    },
+    {
+      "slug": "aws-cloud-course",
+      "title": "AWS Cloud Course",
+      "metaDescription": "Build a production-ready task management app using 6 AWS services: S3, CloudFront, Cognito, Lambda, API Gateway, and DynamoDB.",
+      "description": "Stop building toy projects and learn how real cloud applications are architected. You'll build CloudTask - a full-stack serverless task management app that combines S3 static hosting, CloudFront CDN, Cognito authentication, Lambda functions, API Gateway REST APIs, and DynamoDB database storage, using the same patterns that power production applications at scale.",
+      "subtitle": "Build a Full-Stack Serverless Web App",
+      "category": "full-stack",
+      "tier": "free",
+      "icon": "aws",
+      "field": ["Cloud"],
+      "whatYoullLearn": [
+        "Host static websites on S3 with public bucket policies and static website hosting",
+        "Accelerate global content delivery using CloudFront CDN with custom origins",
+        "Implement user authentication and authorization with Cognito user pools",
+        "Build serverless backend functions with Lambda and IAM execution roles",
+        "Create REST APIs with API Gateway using Cognito authorizers for security",
+        "Store and query application data with DynamoDB using partition and sort keys"
+      ]
+    }
+  ]
+}

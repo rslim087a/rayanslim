@@ -1,0 +1,159 @@
+/* ── SIDEBAR STYLES ─────────────────────────────────────────── */
+
+/* Sidebar Loading State */
+.sidebar-loading {
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+/* Section Details Element */
+.section {
+  border: none;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+.section > summary {
+  padding: 1.25rem 1.5rem;
+  cursor: pointer;
+  list-style: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: var(--transition);
+  user-select: none;
+}
+
+.section > summary:hover {
+  background: var(--brand-lighter);
+  color: var(--brand-dark);
+}
+
+.section[open] > summary {
+  background: var(--brand-lighter);
+  color: var(--brand-dark);
+  border-bottom: 1px solid var(--border-light);
+}
+
+.section summary::-webkit-details-marker {
+  display: none;
+}
+
+.section-icon {
+  width: 16px;
+  height: 16px;
+  transform: rotate(-90deg);
+  transition: var(--transition);
+  color: var(--text-light);
+  flex-shrink: 0;
+}
+
+.section[open] .section-icon {
+  transform: rotate(0deg);
+  color: var(--brand);
+}
+
+/* Lessons Container */
+.lessons {
+  background: var(--panel);
+}
+
+/* Individual Lesson Item */
+.lesson {
+  padding: 1rem 1.5rem 1rem 2.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: var(--transition);
+  border-left: 3px solid transparent;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.lesson::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--text-light);
+  flex-shrink: 0;
+  transition: var(--transition);
+}
+
+.lesson:hover {
+  background: var(--brand-lighter);
+  color: var(--brand-dark);
+  border-left-color: var(--brand);
+}
+
+.lesson:hover::before {
+  background: var(--brand);
+  transform: scale(1.2);
+}
+
+.lesson.active {
+  background: var(--brand-light);
+  color: var(--brand-dark);
+  border-left-color: var(--brand);
+  font-weight: 600;
+}
+
+.lesson.active::before {
+  background: var(--brand);
+  transform: scale(1.2);
+}
+
+/* Lesson Number Label */
+.lesson-number {
+  font-size: 0.8rem;
+  color: var(--text-light);
+  font-weight: 500;
+  min-width: 24px;
+}
+
+.lesson.active .lesson-number {
+  color: var(--brand);
+}
+
+/* Completed Lesson State */
+.lesson.completed {
+  background: var(--success-light);
+  color: var(--success);
+  border-left-color: var(--success);
+}
+
+.lesson.completed::before {
+  background: var(--success);
+}
+
+.completion-check {
+  margin-left: auto;
+  color: var(--success);
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+/* ── RESPONSIVE ADJUSTMENTS ─────────────────────────────────────── */
+
+@media (max-width: 768px) {
+  .section > summary {
+    padding: 1rem 1.25rem;
+    font-size: 0.9rem;
+  }
+
+  .lesson {
+    padding: 0.875rem 1.25rem 0.875rem 2rem;
+    font-size: 0.85rem;
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {"index": 0, "title": "Welcome"},
+  {"index": 1, "title": "Prometheus and Grafana with Docker Compose"},
+  {"index": 2, "title": "Prometheus Query Language (PromQL)"},
+  {"index": 3, "title": "Creating Grafana Dashboards"},
+  {"index": 4, "title": "Prometheus on Kubernetes"},
+  {"index": 5, "title": "Prometheus Architecture"},
+  {"index": 6, "title": "MySQL Monitoring"},
+  {"index": 7, "title": "PostgreSQL Monitoring"},
+  {"index": 8, "title": "MongoDB Monitoring"},
+  {"index": 9, "title": "Redis Monitoring"},
+  {"index": 10, "title": "Clean Up"},
+  {"index": 11, "title": "Extra Resources"}
+]
